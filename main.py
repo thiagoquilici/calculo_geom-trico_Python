@@ -7,7 +7,7 @@ def calcular_retangulo(base, altura):
 
 
 # função
-def calcular_triangulo(base, altura, ):
+def calcular_triangulo(base, altura):
     area = base * altura / 2
     return area
 
