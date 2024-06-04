@@ -2,13 +2,13 @@
 
 # função
 def calcular_trapezio(base_maior, base_menor, altura):
-    area = base_maior + base_menor * altura / 2
+    area = (base_maior + base_menor) * altura / 2
     return area
 
 
 # função
 def calcular_triangulo(base, altura):
-    area = base * altura / 2
+    area = (base * altura) / 2
     return area
 
 
