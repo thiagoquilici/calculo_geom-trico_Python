@@ -1,22 +1,27 @@
 # programa que executa cálculos geométricos
 
 # função
-def calcular_trapezio(base_maior, base_menor, altura):
-    area = (base_maior + base_menor) * altura / 2
-    return area
+# def calcular_trapezio(base_maior, base_menor, altura):
+#     area = (base_maior + base_menor) * altura / 2
+#     return area
+
+calcular_trapezio = lambda base_maior, base_menor, altura: ((base_maior + base_menor)* altura) / 2
 
 
 # função
-def calcular_triangulo(base, altura):
-    area = (base * altura) / 2
-    return area
+# def calcular_triangulo(base, altura):
+#     area = (base * altura) / 2
+#     return area
 
+calcular_triangulo = lambda base, altura: (base * altura) / 2
 
 
 # função
-def calcular_circulo(raio):
-    area = 3.14 * raio **2
-    return area
+# def calcular_circulo(raio):
+#     area = 3.14 * raio **2
+#     return area
+
+calcular_circulo = lambda raio: 3.14 * raio **2
 
 
 # programa principal
